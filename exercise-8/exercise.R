@@ -26,7 +26,7 @@ Pulitzer.Price.Change <- mutate(pulitzer, difference.in.changes = Pulitzer.Prize
 
 # What publication gained the most pulitzer prizes from 2004-2014?
 # Be sure to use the pipe operator! 
-
+publication.with.most.pulitzer.0414 <- select(pulitzer, Newspaper, Pulitzer.Prize.Winners.and.Finalists..2004.2014)
 
 # Which publication with at least 5 Pulitzers won from 2004-2014 had the biggest decrease(negative) in Daily circulation numbers? 
 # This publication should have Pulitzer prizes won a minimum of 5 Pulitzers, as well as the biggest decrease in circulation
